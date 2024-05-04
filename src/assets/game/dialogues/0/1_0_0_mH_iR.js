@@ -1,0 +1,32 @@
+let dialogue = [
+    {"ACTION" : "WAIT", "TEMP": 0.5},
+    {"ACTION": "TEXT", "TEXT": "A pesar del miedo, decides ir a rescatar a ese niño en problemas.", "TEMP": 7},
+    {"ACTION" : "WAIT", "TEMP": 2},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_2.mp3", "TEMP": 4},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_9.mp3", "TEMP": 1},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_11.mp3", "TEMP": 1},
+    {"ACTION": "TEXT", "TEXT": "Te adentras en el oscuro pasillo.", "TEMP": 6},
+    {"ACTION": "BACKGROUND", "COLOR": "#9b3535", "TEMP": 0.1},
+    {"ACTION": "TEXT", "TEXT": "Sintiendo la fiebre quemar tu piel.", "TEMP": 5},
+    {"ACTION" : "WAIT", "TEMP": 2},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_17.mp3", "TEMP": 0.1},
+    {"ACTION": "TEXT", "TEXT": "Aunque desconoces su ubicación", "TEMP": 6},
+    {"ACTION": "TEXT", "TEXT": "las sombras que se mueven a tu alrededor captan tu atención,<br/> instándote a seguirlas.", "TEMP": 8},
+    {"ACTION" : "WAIT", "TEMP": 2},
+    {"ACTION": "TEXT", "TEXT": "Empiezas a confiar en las sombras, que curiosamente te guían por los corredores.", "TEMP": 8},
+    {"ACTION": "BACKGROUND", "COLOR": "rgb(104, 93, 93)", "TEMP": 0.1},
+    {"ACTION": "TEXT", "TEXT": "Con cada paso, tu vista comienza a nublarse, la fiebre haciendo estragos.", "TEMP": 6},
+    {"ACTION": "TEXT", "TEXT": "Aun así, persistes, atraído por una puerta al final del camino, <br/> signo de algo crucial que te espera.", "TEMP": 8},
+    {"ACTION": "BACKGROUND", "COLOR": "rgb(49, 49, 49)", "TEMP": 0.1},
+    {"ACTION": "TEXT", "TEXT": "Pero las sombras se vuelven más densas, formando un torbellino oscuro que te rodea.", "TEMP": 6},
+    {"ACTION": "TEXT", "TEXT": "La oscuridad te envuelve totalmente, y justo cuando estás a punto de alcanzar la puerta, <br/>la fiebre te vence.", "TEMP": 10},
+    {"ACTION": "BACKGROUND", "COLOR": "black", "TEMP": 0.1},
+    {"ACTION": "TEXT", "TEXT": "Tu última sensación es la de caer, suavemente atrapado por las sombras, antes de perder la conciencia.", "TEMP": 8},
+    {"ACTION" : "WAIT", "TEMP": 8},
+    {"ACTION": "TEXT", "TEXT": "<b>Acabas de obtener los poderes de Umbrakinesis</b>", "TEMP":7},
+    {"ACTION" : "WAIT",  "METHOD":[2 , {poder: "umbrakinesis"}], "TEMP": 8},
+    {"ACTION" : "NEXTPROGRESS", "TEMP": 2},  
+
+
+];
+export default dialogue;

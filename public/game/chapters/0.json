@@ -1,0 +1,79 @@
+{
+    "1":{
+        "0": {
+            "STATE" : "INITCHARACTER"
+        },
+        "1": {
+            "STATE" : "DIALOGUE",
+            "DIALOGUE" : "1_0_0.js"
+        },
+        "2":{
+            "STATE":"WAIT"
+        },
+        "3": {
+            "STATE" : "DIALOGUE",
+            "DIALOGUE" : "1_0_1.js"
+        },
+        "4":{
+            "STATE":"WAIT"
+        },
+        "5":{
+            "STATE" : "COMBAT",
+            "dialogue" : true,
+            "enemy": {
+                "HP": 350,
+                "MP": 150,
+                "agi": 14,
+                "atk": 50,
+                "def": 20,
+                "hungry" : 5,
+                "luk": 4,
+                "thirsty": 0,
+                "statsMax":{
+                    "HP": 350,
+                    "MP": 150,
+                    "hungry" : 5,
+                    "luk": 4,
+                    "thirsty": 0
+                }
+            }
+
+        },
+        "6":{
+            "STATE":"WAIT"
+        },
+        "7": {
+            "STATE" : "DIALOGUE",
+            "DIALOGUE" : "1_0_2.js"
+        },
+        "8":{
+            "STATE" : "SURVIVAL",
+            "OPTIONS": ["ESCENARIO, JUGAR"]
+        },
+        "9":{
+            "STATE" : "CHANGEDAY"
+        }
+    },
+    "2":{
+        "0": {
+            "STATE" : "DIALOGUE",
+            "DIALOGUE" : "1_0_3.js"
+        },
+        "1":{
+            "STATE" : "SURVIVAL",
+            "OPTIONS": ["ESCENARIO, JUGAR"]
+        },
+        "2": {
+            "STATE" : "DIALOGUE",
+            "DIALOGUE" : "1_0_4.js"
+        },
+        "3":{
+            "STATE" : "CHANGEDAY"
+        }
+    },"3":{
+        "0":{
+            
+        }
+    }
+
+}

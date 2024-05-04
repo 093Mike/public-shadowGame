@@ -1,0 +1,30 @@
+let dialogue = [
+    {"ACTION" : "WAIT", "TEMP": 0.5},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_2.mp3", "TEMP": 2},
+    {"ACTION": "TEXT", "TEXT": "Avanzas con cautela mientras abrazas al osito en tus manos,<br/>un débil consuelo en la oscuridad que te envuelve.", "TEMP": 7},
+    {"ACTION": "TEXT", "TEXT": "Las sombras parecen cobrar vida, moviéndose de manera extraña a tu alrededor,<br/> una danza macabra alimentada por tu creciente malestar.", "TEMP": 8},
+    //{"ACTION" : "IMGGIF", "TEMP": 2},
+    {"ACTION": "TEXT", "TEXT": "La luz de las lámparas fluorescentes parpadea, batallando contra la oscuridad,<br/> pero solo logra arrojar un resplandor enfermizo sobre el pasillo.", "TEMP": 10},
+    {"ACTION": "TEXT", "TEXT": "Cada paso adelante es un esfuerzo, cada vez te sientes más debil,<br/> sientes que tu cabeza da vueltas.", "TEMP": 6},
+    {"ACTION": "TEXT", "TEXT": `"Solo quiero irme a casa... "`, "TEMP": 4},
+    {"ACTION": "TEXT", "TEXT": `"Solo <b style="color:red">quiero</b> irme a casa... "`, "TEMP": 0.5},
+    {"ACTION": "TEXT", "TEXT": "Murmuras, tu voz quebrada por el miedo y el sollozo.", "TEMP": 6},
+    {"ACTION": "TEXT", "TEXT": `"Necesito encontrar una salida."`, "TEMP": 4},
+    {"ACTION": "TEXT", "TEXT": `"Necesito encontrar una <b style="color:red">salida</b>."`, "TEMP": 0.5},
+    {"ACTION": "TEXT", "TEXT": "Piensas, empujándote a ti mismo a seguir adelante, a pesar del malestar que te consume.", "TEMP": 7},
+    //{"ACTION" : "IMGGIF", "TEMP": 2},
+    {"ACTION": "TEXT", "TEXT": "Las paredes, de un gris opaco, están adornadas con tuberías y cables que zumban con una electricidad inquietante.", "TEMP": 8},
+    {"ACTION": "TEXT", "TEXT": "", "TEMP": 4},
+    {"ACTION": "EFFECT", "IMAGE" : "/game/sounds/0_0_8.mp3", "TEMP": 0.5},
+    {"ACTION": "TEXT", "TEXT": `<b style="color:red">El silencio se ve cortado por el eco de unos pasos que no son los tuyos, acercándose.</b>`, "TEMP": 7},
+    {"ACTION" : "PLAY", "TEMP": 2},
+    {"ACTION": "SELECT", "TEXT": "", "TEMP": 0, 
+            "LINKS": [{"TEXT": "Meterse en una habitación", "TAG": "1_0_0_mH"},
+                      {"TEXT": "Esconderse", "TAG": "1_0_0_e"},
+                      {"TEXT": "Intentar comunicarse", "TAG": "1_0_0_iC"}]},
+    {"ACTION" : "WAIT", "TEMP": 2},
+    {"ACTION" : "CHANGETAG", "TEMP": 0},
+];
+
+
+export default dialogue;
